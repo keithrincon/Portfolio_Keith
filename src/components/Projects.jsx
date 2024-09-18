@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import { projects } from '../data';
 import SectionTitle from './SectionTitle';

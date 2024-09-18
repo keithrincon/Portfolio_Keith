@@ -1,8 +1,6 @@
 import aboutSvg from '../assets/about.svg';
 import SectionTitle from './SectionTitle';
 
-import React from 'react';
-
 const About = () => {
   return (
     <section className='bg-white py-20' id='about'>
