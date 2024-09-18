@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 
 const ProjectCard = ({ url, img, github, title, text }) => {
