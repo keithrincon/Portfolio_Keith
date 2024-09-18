@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.svg';
+import aboutSvg from '../assets/about.svg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const Hero = () => {
@@ -27,7 +27,7 @@ const Hero = () => {
         </article>
         <article className='hidden md:block'>
           <img
-            src={heroImg}
+            src={aboutSvg}
             alt='person programming'
             className='h-80 lg:h-96'
           />
