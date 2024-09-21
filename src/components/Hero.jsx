@@ -1,17 +1,21 @@
-import aboutSvg from '../assets/about.svg';
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
+import { MdEmail } from 'react-icons/md';
+import developer from '../assets/developer.svg';
 
 const Hero = () => {
   return (
     <div className='bg-blue-200 py-24'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
-          <h1 className='text-7xl font-bold tracking-wider'>Im Keith</h1>
+          <h1 className='text-7xl font-bold tracking-wider'>
+            Hi, I&#39;m <span class='text-blue-600'>Keith</span>
+          </h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
             Front-End Developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            turing ideas into interactive reality
+            Follow me as I break into tech as a self-taught developer.
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/keithrincon'>
@@ -21,13 +25,16 @@ const Hero = () => {
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
             <a href='https://x.com/keithrincont'>
-              <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaSquareXTwitter className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
+            <a href='mailto:keithrincont@gmail.com'>
+              <MdEmail className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
         <article className='hidden md:block'>
           <img
-            src={aboutSvg}
+            src={developer}
             alt='person programming'
             className='h-80 lg:h-96'
           />
