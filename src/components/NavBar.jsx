@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className='bg-blue-200'>
       <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold'>
-          Web<span className='text-blue-600'>Dev</span>
+          Keith<span className='text-blue-600'> Rincon</span>
         </h2>
         <div className='flex gap-x-3'>
           {links.map((link) => {

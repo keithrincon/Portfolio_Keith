@@ -15,20 +15,22 @@ const Hero = () => {
             Front-End Developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            Follow me as I break into tech as a self-taught developer.
+            Follow me as I break into tech as a self-taught developer. <br />
+            📍 Northern California, USA
+            <br /> ✅ Open to work
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/keithrincon'>
-              <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaGithubSquare className='h-10 w-10 text-blue-500 hover:text-black duration-300' />
             </a>
             <a href='https://www.linkedin.com/in/keithrincon/'>
-              <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaLinkedin className='h-10 w-10 text-blue-500 hover:text-black duration-300' />
             </a>
             <a href='https://x.com/keithrincont'>
-              <FaSquareXTwitter className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaSquareXTwitter className='h-10 w-10 text-blue-500 hover:text-black duration-300' />
             </a>
             <a href='mailto:keithrincont@gmail.com'>
-              <MdEmail className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <MdEmail className='h-11 w-11 text-blue-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
