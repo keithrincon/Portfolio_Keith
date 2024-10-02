@@ -8,16 +8,18 @@ const Hero = () => {
     <div className='bg-blue-200 py-24'>
       <div className='align-element grid md:grid-cols-2 items-center gap-8'>
         <article>
-          <h1 className='text-7xl font-bold tracking-wider'>
-            Hi, I&#39;m <span class='text-blue-600'>Keith</span>
+          <h1 className='text-5xl font-bold tracking-wider'>
+            Hi, I&#39;m <span className='text-blue-600'>Keith</span>
           </h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
             Front-End Developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            Follow me as I break into tech as a self-taught developer. <br />
             📍 Northern California, USA
             <br /> ✅ Open to work
+            <br />
+            Follow me as I break into tech <br />
+            as a self-taught web developer.
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/keithrincon'>

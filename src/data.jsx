@@ -10,6 +10,8 @@ import fitlife from './assets/fitlife.png';
 import backroads from './assets/backroads.png';
 import mexvenues from './assets/mexvenues.png';
 import resume1 from './assets/resume1.png';
+import lnn from './assets/lnn.png';
+import udt from './assets/udt.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -89,7 +91,7 @@ export const projects = [
     img: keysubs,
     url: 'https://key-subs.vercel.app/',
     github: 'https://github.com/keithrincon/KeySubs',
-    title: 'KeySubs helps sports team get the best athletes within their area.',
+    title: 'KeySubs: Helps players find sports teams to join',
     text: 'full stack app using react next.JS, stripe, typescript, tailwindcss, vercel, MongoDB & clerk authentication',
   },
   // {
@@ -108,6 +110,14 @@ export const projects = [
     title:
       'guadalajara mexican restaurant listed two locations and offered online menus and more.',
     text: 'Used for our restaurant website. build using HTML, CSS, JS & vercel',
+  },
+  {
+    id: nanoid(),
+    img: lnn,
+    url: 'https://lanuevanuvedad.vercel.app/',
+    github: 'https://github.com/keithrincon/Music-band-site',
+    title: 'La Nueva Novedad: Musician site ',
+    text: 'build using HTML, CSS, JS, React, vercel and more.',
   },
   {
     id: nanoid(),
@@ -155,6 +165,14 @@ export const projects = [
     url: 'https://mexicoweddingvenues.netlify.app/',
     github: 'https://github.com/keithrincon/mexico_wedding_venues',
     title: 'Mexico Wedding Venues: a wedding venue landing page',
+    text: 'HTML, CSS, JavaScript & Netlify',
+  },
+  {
+    id: nanoid(),
+    img: udt,
+    url: 'https://uniondeportivo.netlify.app/',
+    github: 'https://github.com/keithrincon/UDT-FC-Official',
+    title: 'UDT Club Deportivo: Youth Soccer team site',
     text: 'HTML, CSS, JavaScript & Netlify',
   },
 ];

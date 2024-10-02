@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { FaGithubSquare } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 
@@ -25,6 +26,13 @@ const ProjectCard = ({ url, img, github, title, text }) => {
       </div>
     </article>
   );
+};
+ProjectCard.propTypes = {
+  url: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  github: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
