@@ -12,7 +12,7 @@ const Hero = () => {
             Hi, I&#39;m <span className='text-blue-600'>Keith</span>
           </h1>
           <p className='mt-4 text-3xl text-slate-700 capitalize tracking-wide'>
-            Front-End Developer
+            Full-stack web developer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
             📍 Northern California, USA

@@ -1,5 +1,14 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaGitAlt, FaFigma } from 'react-icons/fa';
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaFigma,
+  FaCcStripe,
+  FaGithub,
+} from 'react-icons/fa';
+import { RiTailwindCssFill } from 'react-icons/ri';
+import { CiServer } from 'react-icons/ci';
 import { SiTypescript, SiAdobe, SiNextdotjs, SiMongodb } from 'react-icons/si';
 import keysubs from './assets/keysubs.png';
 import gdl from './assets/GDL.png';
@@ -9,9 +18,9 @@ import bankist from './assets/bankist.png';
 import fitlife from './assets/fitlife.png';
 import backroads from './assets/backroads.png';
 import mexvenues from './assets/mexvenues.png';
-import resume1 from './assets/resume1.png';
 import lnn from './assets/lnn.png';
 import udt from './assets/udt.png';
+import homeaway from './assets/homeaway.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -35,9 +44,9 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Version Control',
-    icon: <FaGitAlt className='h-16 w-16 text-blue-500' />,
-    text: 'Learned the basics of Git and GitHub through online courses and bootcamps.',
+    title: 'TypeScript',
+    icon: <SiTypescript className='h-16 w-16 text-blue-500' />,
+    text: 'Built a few apps using TypeScript.',
   },
   {
     id: nanoid(),
@@ -47,21 +56,15 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'TypeScript',
-    icon: <SiTypescript className='h-16 w-16 text-blue-500' />,
-    text: 'Currently learning TypeScript through online course.',
-  },
-  {
-    id: nanoid(),
     title: 'Next.js',
     icon: <SiNextdotjs className='h-16 w-16 text-blue-500' />,
-    text: 'Built a few full stack project using Next.js. Hoping that a course will help me understand it better.',
+    text: 'Built a few full stack project using Next.js.',
   },
   {
     id: nanoid(),
-    title: 'MongoDB',
-    icon: <SiMongodb className='h-16 w-16 text-blue-500' />,
-    text: 'Atleast 2 projects that have used MongoDB. I hope to learn more about it now that I understand APIs.',
+    title: 'Tailwind CSS',
+    icon: <RiTailwindCssFill className='h-16 w-16 text-blue-500' />,
+    text: 'Built a few apps using Tailwind such as this site.',
   },
   {
     id: nanoid(),
@@ -75,23 +78,47 @@ export const skills = [
     icon: <SiAdobe className='h-16 w-16 text-blue-500' />,
     text: 'Self-taught while creating various marketing materials for our restaurant. The programs I use are Photoshop, Illustrator, and InDesign.',
   },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <SiMongodb className='h-16 w-16 text-blue-500' />,
+    text: '3 projects that have used MongoDB.',
+  },
+  {
+    id: nanoid(),
+    title: 'Stripe',
+    icon: <FaCcStripe className='h-16 w-16 text-blue-500' />,
+    text: 'Successfully integrated Stripe it into the HomeAway app',
+  },
+  {
+    id: nanoid(),
+    title: 'Version Control',
+    icon: <FaGithub className='h-16 w-16 text-blue-500' />,
+    text: 'Learned the basics of Git and GitHub through online courses and bootcamps.',
+  },
+  {
+    id: nanoid(),
+    title: 'Hosting & Deployment',
+    icon: <CiServer className='h-16 w-16 text-blue-500' />,
+    text: 'Used to uploading projects using Vercel, Netlify, BlueHost, GoDaddy and more.',
+  },
 ];
 
 export const projects = [
   {
     id: nanoid(),
-    img: resume1,
-    url: 'https://flowcv.com/resume/kup7sswq5r',
-    github: undefined,
-    title: 'my resume 💼',
-    text: 'I created my resume using flowcv',
+    img: homeaway,
+    url: 'https://homeaway-chi.vercel.app/',
+    github: 'https://github.com/keithrincon/homeaway',
+    title: 'HomeAway: Vacation Rentals',
+    text: 'full stack app using react next.JS, stripe, typescript, tailwindcss, vercel, MongoDB & clerk authentication',
   },
   {
     id: nanoid(),
     img: keysubs,
     url: 'https://key-subs.vercel.app/',
     github: 'https://github.com/keithrincon/KeySubs',
-    title: 'KeySubs: Helps players find sports teams to join',
+    title: 'KeySubs: Sports Team Finder',
     text: 'full stack app using react next.JS, stripe, typescript, tailwindcss, vercel, MongoDB & clerk authentication',
   },
   // {
@@ -107,8 +134,7 @@ export const projects = [
     img: gdl,
     url: 'https://guadalajara-rest.vercel.app/',
     github: 'https://github.com/keithrincon/guadalajara_rest',
-    title:
-      'guadalajara mexican restaurant listed two locations and offered online menus and more.',
+    title: 'Guadalajara Restaurants: Website',
     text: 'Used for our restaurant website. build using HTML, CSS, JS & vercel',
   },
   {
@@ -116,7 +142,7 @@ export const projects = [
     img: lnn,
     url: 'https://lanuevanuvedad.vercel.app/',
     github: 'https://github.com/keithrincon/Music-band-site',
-    title: 'La Nueva Novedad: Musician site ',
+    title: 'la Nueva Novedad: musician website ',
     text: 'build using HTML, CSS, JS, React, vercel and more.',
   },
   {
@@ -124,7 +150,7 @@ export const projects = [
     img: prompt,
     url: 'https://project-promptopia-01.vercel.app/',
     github: 'https://github.com/keithrincon/project_promtopia',
-    title: 'Promptopia: allows user to discover, create and share prompts',
+    title: 'promptopia: aI prompts sharing app',
     text: 'Full stack app using React, mongodb, vercel, next.js & google authentication.',
   },
   {
@@ -132,7 +158,7 @@ export const projects = [
     img: dashboard,
     url: 'https://socialmediasdashboard.netlify.app/',
     github: 'https://github.com/keithrincon/Social-Media-Dashboard',
-    title: 'A social media dashboard',
+    title: 'social media dashboard',
     text: 'HTML, CSS JavaScript & Netlify',
   },
   {
@@ -140,7 +166,7 @@ export const projects = [
     img: bankist,
     url: 'https://bankistbank1.netlify.app/',
     github: 'https://github.com/keithrincon/Bankist-Site',
-    title: 'A bank landing page with basic functionality',
+    title: 'bankist: bank landing page',
     text: 'HTML, CSS JavaScript & Netlify',
   },
   {
@@ -148,7 +174,7 @@ export const projects = [
     img: fitlife,
     url: 'https://fitlifegyms.netlify.app/',
     github: 'https://github.com/keithrincon/Bankist-Site',
-    title: 'Fitlife Gyms: a gym landing page',
+    title: 'fitlife gyms: gym landing page',
     text: 'HTML, CSS JavaScript & Netlify',
   },
   {
@@ -156,7 +182,7 @@ export const projects = [
     img: backroads,
     url: 'https://backroadsapp12.netlify.app/#tours',
     github: 'https://github.com/keithrincon/backroads-app',
-    title: 'Backroads: a travel agency landing page',
+    title: 'backroads: travel agency landing page',
     text: 'HTML, CSS, JavaScript, React & Netlify',
   },
   {
@@ -164,7 +190,7 @@ export const projects = [
     img: mexvenues,
     url: 'https://mexicoweddingvenues.netlify.app/',
     github: 'https://github.com/keithrincon/mexico_wedding_venues',
-    title: 'Mexico Wedding Venues: a wedding venue landing page',
+    title: 'mexico wedding venues',
     text: 'HTML, CSS, JavaScript & Netlify',
   },
   {
@@ -172,7 +198,7 @@ export const projects = [
     img: udt,
     url: 'https://uniondeportivo.netlify.app/',
     github: 'https://github.com/keithrincon/UDT-FC-Official',
-    title: 'UDT Club Deportivo: Youth Soccer team site',
+    title: 'UDT club deportivo: youth soccer team website',
     text: 'HTML, CSS, JavaScript & Netlify',
   },
 ];
