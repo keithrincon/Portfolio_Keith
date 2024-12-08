@@ -4,7 +4,7 @@ import { TbWorldWww } from 'react-icons/tb';
 
 const ProjectCard = ({ url, img, github, title, text }) => {
   return (
-    <article className='bg-white rounded-lg shadow-md hover:shadow-xl duration-300 '>
+    <article className='bg-royalBlue rounded-lg shadow-md hover:shadow-xl border-4 border-navyShade hover:border-goldenYellow duration-300'>
       <img
         src={img}
         alt={title}
@@ -12,14 +12,14 @@ const ProjectCard = ({ url, img, github, title, text }) => {
       />
       <div className='capitalize p-8 text-center'>
         <h2 className='text-xl tracking-wide font-medium h-16'>{title}</h2>
-        <p className='mt-4 text-slate-700 leading-loose h-20'>{text}</p>
+        <p className='mt-4 text-white leading-loose h-20'>{text}</p>
         <div className='mt-4 flex justify-center gap-x-8'>
           <a href={url}>
-            <TbWorldWww className='h-8 w-8 text-blue-600 hover:text-black duration-300' />
+            <TbWorldWww className='h-8 w-8 text-white hover:text-goldenYellow duration-300' />
           </a>
           {github && (
             <a href={github} target='_blank' rel='noopener noreferrer'>
-              <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+              <FaGithubSquare className='h-8 w-8 text-white hover:text-goldenYellow duration-300' />
             </a>
           )}
         </div>
@@ -27,6 +27,7 @@ const ProjectCard = ({ url, img, github, title, text }) => {
     </article>
   );
 };
+
 ProjectCard.propTypes = {
   url: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,

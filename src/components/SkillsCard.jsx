@@ -5,7 +5,7 @@ const SkillsCard = ({ icon, title, text }) => {
     <article className='flex flex-col items-center text-center'>
       <span>{icon}</span>
       <h4 className='mt-6 font-bold'>{title}</h4>
-      <p className='mt-2 text-slate-500'>{text}</p>
+      <p className='mt-2 text-white'>{text}</p>
     </article>
   );
 };

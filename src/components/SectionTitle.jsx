@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const SectionTitle = ({ text }) => {
   return (
     <div className='border-b border-blue-300 pb-5'>
-      <h2 className='text-3xl font-medium tracking-wider capitalize text-center'>
+      <h2 className='text-3xl font-bold tracking-wider capitalize text-center'>
         {text}
       </h2>
     </div>

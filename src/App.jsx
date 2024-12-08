@@ -7,14 +7,14 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <>
+    <div className='bg-deepBlue'>
       <NavBar />
       <Hero />
       <Skills />
       <About />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 };
 
