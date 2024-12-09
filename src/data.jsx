@@ -30,6 +30,7 @@ import lnn from './assets/lnn.png';
 import udt from './assets/udt.png';
 import homeaway from './assets/homeaway.png';
 import YC from './assets/YC.png';
+import chef from './assets/chef.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -235,5 +236,13 @@ export const projects = [
     github: 'https://github.com/keithrincon/UDT-FC-Official',
     title: 'UDT club deportivo: youth soccer team website',
     text: 'HTML, CSS, JavaScript & Netlify',
+  },
+  {
+    id: nanoid(),
+    img: chef,
+    url: 'https://chef-claude1.netlify.app/',
+    github: 'https://github.com/keithrincon/Chef-Claude',
+    title: 'Chef Claude: A simple recipe tool using AI',
+    text: 'HTML, CSS, JavaScript, Mistral AI Model & Netlify',
   },
 ];
